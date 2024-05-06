@@ -3,10 +3,14 @@
 import { useState } from 'react'
 import './App.css'
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
+
+//Pages
 import Page1 from './Page/Page1';
 import Page2 from './Page/Page2';
-import Navbar from './Components/Navbar';
 import Page3 from './Page/Page3';
+
+//Components
+import Navbar from './Components/Navbar';
 
 
 function App() {
