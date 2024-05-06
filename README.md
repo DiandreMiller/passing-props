@@ -1,31 +1,32 @@
-# React + TypeScript + Vite
+# This Will be a lesson on passing props
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+Welcome! To get started with your React application, follow these steps:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+1. **Create a Vite App**: Use the following command to create a new Vite app: `npm create vite@latest my-app-name`. Replace  with the desired name for your application.
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+2. **Learn About Passing Props to a Component**: Check out the official React documentation to learn more about passing props to a component. Click [here](https://react.dev/learn/passing-props-to-a-component) to get started.
 
-- Configure the top-level `parserOptions` property like this:
+3. **Install React Router**: Run the command to install react router npm install react-router. Import Browser Router, Routes, and Route from react-router-dom
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+4. **Have students create three pages**
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
-# passing-props
+- The first page will have users update the count by passing props
+- The second page will have users update the count by passing props using destructing
+- The third page will have the users create a function that will not allow the user to have a count lower than zero using the props passed down.
+
+5.  **Have students create the navbar** 
+
+- They can see the the count being similateniously being updated everywhere.
+
+6. **Have students create a component that will be the child of page 3**
+
+- Students will pass props from page 3 to that component and say something about the count. This will show students you can make other components children of each other and pass props that way. 
+
+
+
+
+
+
+   
